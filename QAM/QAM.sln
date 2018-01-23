@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "QAM", "QAM\QAM.pyproj", "{875F637E-21D8-4E48-8A62-A5BF3A0C3243}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{875F637E-21D8-4E48-8A62-A5BF3A0C3243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875F637E-21D8-4E48-8A62-A5BF3A0C3243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CDEC400-A70F-40A4-9B9F-D297A70B0ABE}
+	EndGlobalSection
+EndGlobal
