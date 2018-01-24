@@ -29,7 +29,13 @@
     <InterpreterReference Include="IronPython|2.7-32" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="gui.py" />
+    <Compile Include="gui\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gui\window.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="gui\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

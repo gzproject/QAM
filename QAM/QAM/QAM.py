@@ -5,7 +5,7 @@ import clr
 clr.AddReference("System.Windows.Forms")
 
 from System.Windows.Forms import Application, Form
-from gui import gui
+from gui.window import window
 
-form = gui()
+form = window()
 Application.Run(form)
