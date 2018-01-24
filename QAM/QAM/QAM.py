@@ -5,12 +5,7 @@ import clr
 clr.AddReference("System.Windows.Forms")
 
 from System.Windows.Forms import Application, Form
+from gui import gui
 
-class HelloWorldForm(Form):
-
-    def __init__(self):
-        self.Text = 'Hello World'
-        self.Name = 'Hello World'
-
-form = HelloWorldForm()
+form = gui()
 Application.Run(form)
