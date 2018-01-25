@@ -29,6 +29,9 @@
     <InterpreterReference Include="IronPython|2.7-32" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="gui\buttons.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="gui\__init__.py">
       <SubType>Code</SubType>
     </Compile>
